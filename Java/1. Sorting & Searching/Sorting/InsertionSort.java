@@ -1,7 +1,7 @@
 public class InsertionSort {
         public static void main(String[] args) {
             System.out.println("Insertion Sort");
-            int arr[] = {58, 36, 84, 18, 62}; // Example array
+            int arr[] = {58, 36, 84, 18, 62}; 
     
             // Insertion Sort
             for (int i = 1; i < arr.length; i++) {

@@ -2,12 +2,12 @@ public class BubblesortRecursion {
         public static void main(String[] args) {
             System.out.println("Bubble Sort with Recursion");
     
-            int[] arr = {54, 34, 49, 1, 23}; // Example array
+            int[] arr = {54, 34, 49, 1, 23};
     
             // Perform Bubble Sort
             bubbleSort(arr, arr.length);
     
-            // Print sorted array
+
             System.out.println("Sorted Array:");
             for (int value : arr) {
                 System.out.print(value + " ");
